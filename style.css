@@ -201,7 +201,7 @@ footer{
 
 /* seccion nosotros */
 .bodynosotros{
-    background-image: url(imagenes/foto-fondo-nosotros.jpeg);background-position: center;
+    background-image: url(imagenes/foto-fondo-nosotros.jpeg);background-position:top; background-position-y: top;
 }
 
 .nosotros-1{
