@@ -7,7 +7,7 @@
 
 
 body{
-    background-color: #F2EAD3;
+    background-image: url(imagenes/sepia.jpeg);background-position: center;
 }
 .logo{
     width: 200px;
@@ -70,11 +70,12 @@ nav ul li{
 }
 
 .contenidoentero{
-    background-image: url(imagenes/sepia.jpeg);background-position: center; background-repeat: no-repeat;
+   /* background-image: url(imagenes/sepia.jpeg);background-position: center; background-repeat: no-repeat;*/
     display: flex;
     justify-content: center;
    
 }
+
 
 
 .tituloprimario{
@@ -83,8 +84,8 @@ nav ul li{
     text-align: center;
     line-height: 1.6;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 5%;      
+    font-family: 'Poppins', sans-serif;     
+    background-color:#E3E3E3;
 }
 
 
@@ -122,14 +123,16 @@ nav ul li{
     font-weight: bold;  
 }
 
-/*.segundasection{
-    background-image: url(imagenes/sepia.jpeg);background-position: center;
+.fondoentero{
+    margin-top: 10%;
+    background-color: #E3E3E3;
    
 }
-*/
-.fondoentero{
+
+/*.fondoentero{
     background-image: url(imagenes/sepia.jpeg);
 }
+*/
 
 .contamos{
     font-weight: bold;
@@ -139,8 +142,10 @@ nav ul li{
     line-height: 3.5;
     text-decoration: underline;
     font-size: 20px;
-    color: white;
+    color: black;
     margin-left: 30px;
+    margin-top: 10%;
+
     
 
 
@@ -148,12 +153,12 @@ nav ul li{
 }
 
 .one{
-    padding-left: 15px;
+    /*padding-left: 15px;*/
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    
+
     font-size: 25px;
-    color: white;
+    color: black;
     text-align: center;
 
     
