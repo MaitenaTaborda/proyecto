@@ -6,15 +6,15 @@
 
 
 
-.bodyinicio{
-    background-image: url(imagenes/sepia.jpeg);background-position: center;
-}
 .logo{
     width: 200px;
     height: 200px;
-    margin-left: 30px;
     
     
+    
+}
+body{
+    background-color: #D5DBB3;
 }
 
 .navegador{
@@ -59,7 +59,10 @@
     font-weight: bolder;
 }
 nav{
-    background-color:#F9F5F0 ;
+    background-color:#FFF8D9;
+    display: flex;
+    justify-content: space-around;
+    
     
     
 }
@@ -68,6 +71,7 @@ nav ul li{
     list-style: none;
     font-size: 20px;
     margin-left: 100px;
+    justify-content: flex-end;
   
  
 }
@@ -78,45 +82,94 @@ nav ul li{
    
 }
 
-
+.imagenprincipal{
+   width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0%;
+}
 
 .tituloprimario{
-    color: black;
+    color: #BB371A;
     font-size: 50px;
     text-align: center;
     line-height: 1.6;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;     
-    background-color:#E3E3E3; opacity: 60%;
+    font-family:'Roboto Condensed', sans-serif; 
+    margin: 8%;   
+   
 }
 
 
 .vehiculos{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-family:fantasy;
+    font-size: 50px;
     text-align: center;
-    color: whitesmoke;
-    text-decoration: underline;
-    font-weight: bold;
+    color: black;
+    font-weight: bolder;
+    margin: 10%;
     
 }   
+.camion{
+    width: 200px;
+    height: 200px;
+    grid-area: camion;
+}
+.camioneta{
+    width: 200px;
+    height: 200px;
+    grid-area: camioneta;
+}
+.agricola{
+    width: 200px;
+    height: 200px;
+    grid-area: agricola;
+}
+.auto{
+    width: 200px;
+    height: 200px;
+    grid-area: automovil;
+}
+.utilitario{
+    width: 200px;
+    height: 200px;
+    grid-area: utilitario; 
+   
 
-.parrafo{
+}
+.caja{
+    display: grid;
+    grid-template-columns: (2,10fr);
+    grid-template-rows: (2,10fr);
+    padding: 40px;
+    grid-template-areas: "camion camioneta"
+    "agricola automovil"
+    "utilitario utilitario";
+    gap: 80px;
+    width:100% ; margin: 5%;
+
+   
+}
+.nombres{
+    font-family: fantasy;
+    margin-top: 5%;
+    font-weight: bolder;
+    color:#810000 ;
+    font-size: 20px;
+
+}
+/*.parrafo{
     font-size: 50px;
     background-color: black; opacity: 70%; 
-    margin: 15%;
+    margin: 5%;
     transition: all 2s;
     
     
 }
- .parrafo:hover{
-    transform:rotate (400peg); scale: (2);
-    transition: all 3s;
+*/
+ 
 
-}
-
-
-.lista{
+/*.lista{
     text-align: center;
     list-style: none;
     color:whitesmoke ;
@@ -124,12 +177,14 @@ nav ul li{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;  
 }
+*/
 
 .fondoentero{
     margin-top: 10%;
     background-color: #E3E3E3;opacity: 50%; margin: 5%;
    
 }
+
 
 /*.fondoentero{
     background-image: url(imagenes/sepia.jpeg);
