@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0%;
 }
@@ -6,155 +6,103 @@
 
 
 
-.logo{
+.logo {
     width: 100px;
     height: 100px;
-    
-    
-}
-body{
-    background-color: #D5DBB3;
+
+
 }
 
-.navegador{
-    display: flex;
-    align-items: center; 
+body {
+    background-color: #F5EFEF;
 }
-.inicio{
-    color: #810000;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-   
-  
-}
-.nosotros{
-    color: #810000;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-}
-.servicios{
-    color: #810000;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-}
-.productos{
-    color: #810000;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-}
-.contacto{
-    color: #810000;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-}
-/*nav{
-    background-color:#FFF8D9;
-    display: flex;
-    justify-content: space-around !important
-    ;
-    
-    
-    
-}
-nav ul li{
-    display: inline;
-    list-style: none;
-    font-size: 20px;
-    margin-left: 100px;
-    
-  
- 
-}
-*/
-.contenidoentero{
+
+
+.contenidoentero {
     display: flex;
     justify-content: center;
-   
+
 }
 
-.imagenprincipal{
-   width: 100%;
+.fotos-principal {
     height: 400px;
-    margin: 0px;
-    padding: 0%;
+
 }
 
-.tituloprimario{
+.tituloprimario {
     color: black;
     font-size: 50px;
     text-align: center;
     line-height: 1.6;
     font-weight: bold;
-    font-family:'Roboto Condensed', sans-serif; 
-    margin: 8%;   
-   
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 8%;
+
 }
 
 
-.vehiculos{
-    font-family:fantasy;
+.vehiculos {
+    font-family: fantasy;
     font-size: 50px;
     text-align: center;
     color: black;
     font-weight: bolder;
     margin: 10%;
-    
-}   
-.camion{
+
+}
+
+.camion {
     width: 200px;
     height: 200px;
     grid-area: camion;
 }
-.camioneta{
+
+.camioneta {
     width: 200px;
     height: 200px;
     grid-area: camioneta;
 }
-.agricola{
+
+.agricola {
     width: 200px;
     height: 200px;
     grid-area: agricola;
 }
-.auto{
+
+.auto {
     width: 200px;
     height: 200px;
     grid-area: automovil;
 }
-.utilitario{
+
+.utilitario {
     width: 200px;
     height: 200px;
-    grid-area: utilitario; 
-   
+    grid-area: utilitario;
+
 
 }
-.caja{
+
+.caja {
     display: grid;
-    grid-template-columns: (2,10fr);
-    grid-template-rows: (2,10fr);
+    grid-template-columns: (2, 10fr);
+    grid-template-rows: (2, 10fr);
     padding: 40px;
     grid-template-areas: "camion camioneta"
-    "agricola automovil"
-    "utilitario utilitario";
+        "agricola automovil"
+        "utilitario utilitario";
     gap: 80px;
-    width:100% ; margin: 5%;
+    width: 100%;
+    margin: 5%;
 
-   
+
 }
-.nombres{
-    font-family: 'Roboto Condensed', sans-serif; 
+
+.nombres {
+    font-family: 'Roboto Condensed', sans-serif;
     margin-top: 5%;
     font-weight: bolder;
-    color:#810000 ;
+    color: #810000;
     font-size: 20px;
 
 }
@@ -162,20 +110,21 @@ nav ul li{
 
 
 
-.fotoautopartes{
+.fotoautopartes {
     width: 100%;
     height: 250px;
     margin-top: 8%;
     margin-bottom: 5%;
 }
-.foto-carousel{
+
+.foto-carousel {
     width: 100%;
     height: 200px;
 }
 
 
 
-.one{
+.one {
     padding-left: 15px;
     font-size: 25px;
     color: black;
@@ -183,65 +132,107 @@ nav ul li{
     line-height: 2.4;
     font-family: Roboto Condensed', sans-serif;
 
-    
-    
-    
-    
+
+
+
+
 }
-footer{
+
+footer {
     padding: 0%;
     background-color: #F9F5F0;
     color: #810000;
     font-family: 'Poppins', sans-serif;
-    text-align:center;
+    text-align: center;
     margin-top: 30%;
-    
-    
+
+
 }
-.iconos{
+
+.iconos {
     margin-left: 80%;
     padding-right: 20px;
     color: #810000;
     font-size: 15px;
     display: inline;
 }
-.whatsapp{
+
+.whatsapp {
     width: 20px;
     height: 20px;
 
 }
-.facebook-2{
+
+.facebook-2 {
     width: 20px;
     height: 20px;
 }
-.instagram-2{
+
+.instagram-2 {
     width: 20px;
     height: 20px;
 }
+
+
+
+/* MediaQueries*/
+
+@media only screen and (max-width:750px) {
+    .tituloprimario{
+        font-size: 20px;
+        text-align: center;
+    }
+    .camion{
+        width: 100px;
+        height: 100px;
+    }
+    .camioneta{
+        width: 100px;
+        height: 100px;
+    }
+    .agricola{
+        width: 100px;
+        height: 100px;
+    }
+    .auto{
+        width: 100px;
+        height: 100px;
+    }
+    .utilitario{
+        width: 80px;
+        height: 80px;
+    }
+    .navegador{
+        width: 100%;
+    }
+}
+
 
 
 /* seccion nosotros */
 
-.fotonosotros{
+.fotonosotros {
     width: 100%;
     height: 300px;
 }
-.carousel-nosotros{
+
+.carousel-nosotros {
     width: 100%;
     height: 400px;
 }
-.titulonosotros{
-    font-family:'Roboto Condensed', sans-serif;
+
+.titulonosotros {
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 50px;
     text-align: center;
     margin: 5%;
 }
 
 
-.primero{
+.primero {
     text-align: center;
     color: black;
-    font-family:'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
     line-height: 1.6;
     margin-top: 100px;
@@ -250,58 +241,67 @@ footer{
     margin-right: 5%;
 
 }
-.estilo-parrafo{
-    font-family:'Times New Roman', Times, serif
+
+.estilo-parrafo {
+    font-family: 'Times New Roman', Times, serif
 }
-.segundo{
+
+.segundo {
     color: black;
     line-height: 1.6;
     font-size: 20px;
-    font-family:'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 80px;
     margin-left: 4%;
     margin-right: 5%;
     font-weight: bold;
 }
-.uno{
+
+.uno {
     font-size: 25px;
     color: #F4991A;
 }
-.a{
+
+.a {
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
     font-weight: bold;
     line-height: 2.4;
     margin-left: 4%;
-    
+
 }
-.parentesis{
-    font-family:unset;
+
+.parentesis {
+    font-family: unset;
     display: inline;
 }
-.imagen-uno{
+
+.imagen-uno {
     width: 500px;
     height: 500px;
     margin-left: 3%;
 }
-.imagen-dos{
+
+.imagen-dos {
     width: 500px;
     height: 500px;
     padding-left: 20%;
 }
-.imagen{
+
+.imagen {
     display: inline;
 }
 
 /*Seccion Servicios */
 
 
-.fotocamion{
+.fotocamion {
     width: 100%;
     height: 300px;
 }
-.articulo-container{
+
+.articulo-container {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 12px;
     font-size: 20px;
@@ -312,28 +312,30 @@ footer{
     font-weight: bold;
 
 }
-.servicios-adicionales{
+
+.servicios-adicionales {
     font-family: poppins;
     font-size: 25px;
     margin: 10%;
     font-weight: bolder;
-    background-color: #810000;opacity: 70%;
+    background-color: #810000;
+    opacity: 70%;
     text-align: center;
 }
 
-.imagenes{
+.imagenes {
     display: flex;
     justify-content: center;
-   
+
 }
 
 /*Seccion Productos*/
-.fotoproductos{
+.fotoproductos {
     width: 100%;
     height: 300px;
 }
 
-.titulo-productos{
+.titulo-productos {
     font-family: poppins;
     font-size: 40px;
     font-weight: bolder;
@@ -341,17 +343,19 @@ footer{
     margin-top: 10%;
     margin-bottom: 8%;
 }
-.listaproductos{
+
+.listaproductos {
     font-family: fantasy;
     font-size: 30px;
     color: black;
     text-align: center;
-    
-    
-    
-    
+
+
+
+
 }
-.dudas{
+
+.dudas {
     font-family: poppins;
     font-size: 25px;
     text-align: center;
@@ -359,22 +363,25 @@ footer{
     font-weight: bold;
     margin-top: 10%;
 }
-.click-aqui{
+
+.click-aqui {
     font-family: poppins;
     color: #810000;
-    
+
 }
-.ultimo{
+
+.ultimo {
     margin-top: 10%;
     font-family: poppins;
-    background-color: #810000;opacity: 70%;
+    background-color: #810000;
+    opacity: 70%;
     text-align: center;
     font-size: 30px;
     margin: 8%;
 }
 
 /*Seccion Contacto*/
-.contactos{
+.contactos {
     font-family: poppins;
     margin-top: 10%;
     color: black;
@@ -382,41 +389,46 @@ footer{
     margin-bottom: 10%;
     font-size: 30px;
 }
-.via{
+
+.via {
     text-align: left;
     margin-bottom: 25px;
     font-size: 20px;
     margin: 20px;
 }
-.lista-contactos{
+
+.lista-contactos {
     color: black;
     font-family: poppins;
     text-align: left;
     font-size: 25px;
     list-style: none;
     border: solid 6px, #810000;
-    
-    
+
+
 }
-.numeros{
+
+.numeros {
     text-align: center;
-    margin:5%;
+    margin: 5%;
     font-weight: bolder;
-    border: solid 4px #810000; margin: 8%;
+    border: solid 4px #810000;
+    margin: 8%;
 }
-.nos{
+
+.nos {
     font-family: poppins;
     font-size: 25px;
     margin: 8%;
     color: #810000;
 }
 
-.mapa{
+.mapa {
     margin-left: 30%;
-    
+
 }
 
-.horarios{
+.horarios {
     font-family: poppins;
     font-size: 25px;
     margin: 10%;
@@ -425,26 +437,29 @@ footer{
 }
 
 
-.instagram{
+.instagram {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    
+
 }
-.facebook{
+
+.facebook {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    
-    
+
+
 }
-.eslogan{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
+.eslogan {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-weight: bolder;
     font-size: 30px;
     margin: 8%;
 }
-.logo-final{
+
+.logo-final {
     margin-left: 25%;
 }
