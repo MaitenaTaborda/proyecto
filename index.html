@@ -17,10 +17,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <!--Animate_Animated
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
+    <!--Animate_Animated-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--Aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>inicio</title>
 </head>
 
@@ -100,8 +101,8 @@
     </div>
 
     <section>
-        <h1 class="animate__animated animate__backInDown">
-            <p class="titulo">
+        <h1>
+            <p class="animate__animated animate__backInDown titulo">
                 COMPRA DE VEHICULOS SINIESTRADOS Y VENTA DE AUTOPARTES
             </p>
         </h1>
@@ -113,28 +114,30 @@
 
             <div class="grid-caja">
 
-                <div>
-                    <img class="grid-camion" src="imagenes/semi.png" alt="camion">
-                    <p class="nombres">CAMIONES</p>
+            <div class="camion1">
+                    <img class="animate__animated animate__backInLeft grid-camion" src="imagenes/semi.png" alt="camion">
+                    <p class="animate__animated animate__fadeInRightBig  nombres">CAMIONES</p>
                 </div>
-                <div>
-                    <img class="animate__animated animate__backInDown grid-camioneta" src="imagenes/camioneta (1).png"
+                <div class="camionetas1">
+                    <img class="animate__animated animate__backInRight grid-camioneta" src="imagenes/camioneta (1).png"
                         alt="camioneta">
-                    <p class="nombres"> CAMIONETAS </p>
+                    <p class="animate__animated animate__fadeInLeftBig nombres"> CAMIONETAS </p>
                 </div>
-                <div>
-                    <img class="grid-agricola" src="imagenes/tractor.png" alt="maquinaria agricola">
-                    <p class="nombres"> MAQUINARIA AGRICOLA</p>
+                <div class="agricola1">
+                    <img class="animate__animated animate__backInLeft  grid-agricola" src="imagenes/tractor.png"
+                        alt="maquinaria agricola">
+                    <p class="animate__animated animate__fadeInRightBig nombres"> MAQUINARIA AGRICOLA</p>
                 </div>
-                <div>
-                    <img class="grid-auto" src="imagenes/coche.png" alt="auto">
-                    <p class="nombres">
+                <div class="auto1">
+                    <img class="animate__animated animate__backInRight grid-auto" src="imagenes/coche.png" alt="auto">
+                    <p class="animate__animated animate__fadeInLeftBig  nombres">
                         AUTOMOVILES
                     </p>
                 </div>
-                <div>
-                    <img class="grid-utilitario" src="imagenes/camioneta.png" alt="utilitario">
-                    <p class="nombres">UTILITARIOS</p>
+                <div class="utilitario1">
+                    <img class="animate__animated animate__backInLeft  grid-utilitario" src="imagenes/camioneta.png"
+                        alt="utilitario">
+                    <p class="animate__animated animate__fadeInRightBig nombres">UTILITARIOS</p>
                 </div>
             </div>
         </article>
@@ -146,8 +149,8 @@
         <div class="fondoentero">
             <section class="segundasection">
                 <div class="container-one">
-
-                    <p class="one1">SERVICIOS DE ASISTENCIA EN SINIESTRO</p>
+                    <p class="one1">SERVICIOS DE ASISTENCIA EN SINIESTRO
+                    </p>
 
                     <p class="one2">COTIZACIONES EN COMPRA DE VEHICULOS SINIESTRADOS</p>
 
@@ -158,11 +161,11 @@
     </section>
     <footer>
         <div class="mb-3 consultas">
-            <label for="exampleFormControlInput1" class="form-label consultas">email</label>
+            <label for="exampleFormControlInput1" class="form-label consultas email">email</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3 consultas ">
-            <label for="exampleFormControlTextarea1" class="form-label consultas">Escribe tu consulta</label>
+            <label for="exampleFormControlTextarea1" class="form-label consultas consulta">Escribe tu consulta</label>
             <textarea class="form-control consultas" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <div>
@@ -178,7 +181,7 @@
 
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--script Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

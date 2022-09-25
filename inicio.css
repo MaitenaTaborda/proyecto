@@ -59,6 +59,21 @@
 
 
 }
+.camion1:hover{
+    transform: scale(1.5);
+}
+.camionetas1:hover{
+    transform: scale(1.5);
+}
+.agricola1:hover{
+    transform: scale(1.5);
+}
+.auto1:hover{
+    transform: scale(1.5);
+}
+.utilitario1:hover{
+    transform: scale(1.5);
+}
 
 .grid-caja {
     width: 80%;
@@ -76,28 +91,37 @@
 
 }
 
+
 .nombres {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: poppins;
     margin-top: 5%;
     font-weight: bolder;
     color: #810000;
     font-size: 20px;
+   
 
 }
 .segundasection{
-    margin-bottom: 15%;
+    margin:5%;
 }
 .container-one:hover>p {
-    transform: translateX(50px);
+    transform:scale(1.1);
+
     
 }
+
 .one1{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bolder;
     font-size: 30px;
     background-color: #810000;
     color: white;
-    transition: all 1.5s ease;
+    margin-bottom: 5%;
+
+    
+}
+.one1:hover{
+    transition: all 2s;
 }
 
 .one2{
@@ -106,7 +130,11 @@
     font-size: 30px;
     background-color: #810000;
     color: white;
-    transition: all 1s linear;
+    margin-bottom: 5%;
+    
+}
+.one2:hover{
+    transition: all 3s;
 }
 .one3{
     font-family: 'Roboto Condensed', sans-serif;
@@ -114,7 +142,11 @@
     font-size: 30px;
     background-color: #810000;
     color: white;
-    transition: all 1.2s ease-in;
+    margin-bottom: 5%;
+    
+}
+.one3:hover{
+    transition: all 4s;
 }
 
 footer{
@@ -142,6 +174,12 @@ footer{
     font-family: poppins;
     font-size: 15px;
     font-weight: bold;
+    color: white;
+}
+.email{
+    color: white;
+}
+.consulta{
     color: white;
 }
 /*Responsive Mobile*/
@@ -190,9 +228,7 @@ footer{
     .direccion{
         font-size: 8px;
     }
-    .container-one:hover>p {
-        transform: translateX(50px);
-    }
+       
 }
 /*Responsive Tablet*/
 @media only screen and (min-width:750px) and (max-width:1024px){
