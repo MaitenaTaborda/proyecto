@@ -5,187 +5,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>autopartes km180</title>
-    <!--favicon-->
-    <link rel="shortcut icon" href="IMAGENES/logo.png" type="image/x-icon">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="style.css">
-    <!--GoogleFont-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <!--animacion-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="inicio.css">
     <!--GoogleFonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!--Animate_Animated
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
+    <!--Aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>inicio</title>
 </head>
 
+<body>
 
-<nav class="navbar navbar-expand-lg bg-light navegador">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-            <img class="logo" src="imagenes/logo.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AUTOPARTES KM180</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img class="logo" src="imagenes/logo.png"
+                            alt="logo"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide fotos-principal" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+
+        </div>
+        <div class="carousel-inner fotos-principal">
+            <div class="carousel-item active">
+                <img src="fotos/foto inicio (1).jpeg" class="d-block w-100 fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="fotos/foto inicio (3).jpeg" class="d-block w-100 fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="fotos/foto inicio (4).jpeg" class="d-block w-100 fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="fotos/foto inicio (5).jpeg" class="d-block w-100 fluid" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
-                <a class="nav-link" href="nosotros.html">nosotros</a>
-                <a class="nav-link" href="servicios.html">servicios</a>
-                <a class="nav-link" href="productos.html">productos</a>
-                <a class="nav-link" href="contacto.html">contacto</a>
-            </div>
-        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-</nav>
+
+    <section>
+        <h1 class="animate__animated animate__backInDown">
+            <p class="titulo">
+                COMPRA DE VEHICULOS SINIESTRADOS Y VENTA DE AUTOPARTES
+            </p>
+        </h1>
+    </section>
+    <section class="contenidoentero">
+        <article class="articulo">
 
 
 
-<div id="carouselExampleIndicators" class="carousel slide fotos-principal" data-bs-ride="true">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    
-    </div>
-    <div class="carousel-inner fotos-principal">
-      <div class="carousel-item active">
-        <img src="fotos/foto inicio (1).jpeg" class="d-block w-100 fluid" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="fotos/foto inicio (3).jpeg" class="d-block w-100 fluid" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="fotos/foto inicio (4).jpeg" class="d-block w-100 fluid" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="fotos/foto inicio (5).jpeg" class="d-block w-100 fluid" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+            <div class="grid-caja">
 
-<div>
-    <h2 class="tituloprimario">
-        COMPRA DE VEHICULOS SINIESTRADOS Y VENTA DE AUTOPARTES
-    </h2>
-</div>
-
-<section class="contenidoentero">
-    <article class="articulo">
-
-       
-
-        <div class="caja">
-
-            <div>
-                <img class="camion" src="imagenes/semi.png" alt="camion">
-                <p class="nombres">CAMIONES</p>
+                <div>
+                    <img class="grid-camion" src="imagenes/semi.png" alt="camion">
+                    <p class="nombres">CAMIONES</p>
+                </div>
+                <div>
+                    <img class="animate__animated animate__backInDown grid-camioneta" src="imagenes/camioneta (1).png"
+                        alt="camioneta">
+                    <p class="nombres"> CAMIONETAS </p>
+                </div>
+                <div>
+                    <img class="grid-agricola" src="imagenes/tractor.png" alt="maquinaria agricola">
+                    <p class="nombres"> MAQUINARIA AGRICOLA</p>
+                </div>
+                <div>
+                    <img class="grid-auto" src="imagenes/coche.png" alt="auto">
+                    <p class="nombres">
+                        AUTOMOVILES
+                    </p>
+                </div>
+                <div>
+                    <img class="grid-utilitario" src="imagenes/camioneta.png" alt="utilitario">
+                    <p class="nombres">UTILITARIOS</p>
+                </div>
             </div>
-            <div>
-                <img class="camioneta" src="imagenes/camioneta (1).png" alt="camioneta">
-                <p class="nombres"> CAMIONETAS </p>
-            </div>
-            <div>
-                <img class="agricola" src="imagenes/tractor.png" alt="maquinaria agricola">
-                <p class="nombres"> MAQUINARIA AGRICOLA</p>
-            </div>
-            <div>
-                <img class="auto" src="imagenes/coche.png" alt="auto">
-                <p class="nombres">
-                    AUTOMOVILES
-                </p>
-            </div>
-            <div>
-                <img class="utilitario" src="imagenes/camioneta.png" alt="utilitario">
-                <p class="nombres">UTILITARIOS</p>
-            </div>
+        </article>
+
+
+    </section>
+
+    <section>
+        <div class="fondoentero">
+            <section class="segundasection">
+                <div class="container-one">
+
+                    <p class="one1">SERVICIOS DE ASISTENCIA EN SINIESTRO</p>
+
+                    <p class="one2">COTIZACIONES EN COMPRA DE VEHICULOS SINIESTRADOS</p>
+
+                    <P class="one3">ADQUIRIMOS VEHICULOS DADOS DE BAJA BAJO LEY 25.761-FORMULARIO 04D</P>
+
+                </div>
         </div>
-    </article>
-
-
-</section>
-<!--<div>
-    <img class="fotoautopartes" src="imagenes/imagen.jpeg" alt="fotoDeAutopartes">
-</div>-->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner foto-carousel">
-        <div class="carousel-item active">
-            <img src="imagenes/foto-fondo-nosotros.jpeg" class="d-block w-100" alt="foto">
+    </section>
+    <footer>
+        <div class="mb-3 consultas">
+            <label for="exampleFormControlInput1" class="form-label consultas">email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
-        <div class="carousel-item">
-            <img src="imagenes/fondo-contactos.jpeg" class="d-block w-100" alt="...">
+        <div class="mb-3 consultas ">
+            <label for="exampleFormControlTextarea1" class="form-label consultas">Escribe tu consulta</label>
+            <textarea class="form-control consultas" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <div class="carousel-item">
-            <img src="imagenes/fondo-productos.jpeg" class="d-block w-100" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
-<div class="fondoentero">
-    <section class="segundasection">
         <div>
-
-            <p class="one">SERVICIOS DE ASISTENCIA EN SINIESTRO</p>
-
-            <p class="one">COTIZACIONES EN COMPRA DE VEHICULOS SINIESTRADOS</p>
-
-            <P class="one">ADQUIRIMOS VEHICULOS DADOS DE BAJA BAJO LEY 25.761-FORMULARIO 04D</P>
-
-        </div>
-</div>
-
-</section>
-<div>
-    <!--pie de pagina-->
-    <footer class="footer.one">
-        <div>Ruta 31 kilometro 180-Paraje la "loma negra"-Rojas-Provincia de Buenos Aires</div>
-        <div class="iconos">
-
-            <img class="whatsapp" src="imagenes/whatsapp.png" alt="">
-            <img class="facebook-2" src="imagenes/facebook.png" alt="">
-            <img class="instagram-2" src="imagenes/simbolo-de-instagram.png" alt="">
-
+            <div class="iconos-footer">
+                <a href="https://es-la.facebook.com/"><img class="iconos" src="imagenes/facebook.png" alt="facebook">
+                </a>
+                <a href="https://web.whatsapp.com/"><img class="iconos" src="imagenes/whatsapp.png" alt="">
+                </a>
+            </div>
+            <p class="direccion">
+                Ruta31 Km180- Paraje "La Loma Negra"-Rojas-Provincia de Buenos Aires
+            </p>
 
         </div>
-
-        </ul>
     </footer>
-    
-    <!--script de boostrap-->
+
+    <!--script Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
-    </body>
+</body>
 
 </html>
