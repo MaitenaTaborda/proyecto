@@ -13,15 +13,6 @@
     height: 400px;
 }
 
-.vehiculos {
-    font-family: fantasy;
-    font-size: 50px;
-    text-align: center;
-    color: black;
-    font-weight: bolder;
-    
-
-}
 
 .grid-camion {
     width: 200px;
@@ -73,6 +64,7 @@
 }
 .utilitario1:hover{
     transform: scale(1.5);
+    
 }
 
 .grid-caja {
@@ -84,6 +76,7 @@
         "agricola automovil"
         "utilitario utilitario";
         margin-left: 20%;
+        margin-top: 10%;
         
     
    
