@@ -10,7 +10,7 @@
     margin:4%;
 }
 .fotos-principal{
-    height: 400px;
+    margin-top: 2%;
 }
 
 
@@ -187,10 +187,12 @@ footer{
     .grid-camioneta{
         width: 100px;
         height: 100px;
+        margin-top: 15%;
     }
     .grid-camion{
         width: 100px;
         height: 100px;
+        margin-top: 15%;
     }
     .grid-agricola{
         width: 100px;
