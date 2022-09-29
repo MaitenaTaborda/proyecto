@@ -4,85 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--logo-->
-    <link  rel="shortcut icon" href="IMAGENES/logo.png" type="image/x-icon" >
+    <link rel="shortcut icon" href="fotos/logo.png" type="image/x-icon">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
-    <!--GoogleFont-->
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!--Animate_Animated-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Contacto</title>
 </head>
 <body>
-    <header class="header-container">
-        <div class="nav">
-            
-       <nav class="navegador">
-                       <!--logo -->
-    <a href="index.html"><img class="logo" src="IMAGENES/logo.png" alt="logo"> </a>
-    <!--menu-->
-        <ul class="menu">
-            <li><a class="inicio" href="index.html">inicio</a></li>
-            <!---->
-            <li><a class="nosotros" href="nosotros.html">nosotros</a></li>
-            <!---->
-            <li><a class="servicios" href="servicios.html">servicios</a></li>
-            <!---->
-            <li><a class="productos" href="productos.html">productos</a></li>
-            <!---->
-            <li><a class="contacto" href="contacto.html">contacto</a></li>
-        </ul>
-       </nav>
-       </div>
-    </header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AUTOPARTES KM180</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img class="logo" src="fotos/logo.png"
+                            alt="logo"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+
+                </div>
+            </div>
+        </div>
+    </nav>
     
-    </div>
-    <h1 class="contactos">CONTACTOS</h1>
+    
+    <h1 class="animate__animated animate__fadeInRight contactos">CONTACTOS</h1>
     <section class="lista">
         <ul class="lista-contactos">
-            <li class="via">Via Whatsapp o Llamada de Linea</li>
+            <li class="animate__animated  animate__fadeInLeftBig via">Via Whatsapp o Llamada de Linea</li>
             <li class="numeros">VENTAS: +54 9 1139417280  (Alejandro) </li>
             <li class="numeros"> ADMINISTRACION: +54 9 1131512270 (Lautaro)</li>
             <li class="numeros"> CEO: +54 9 1131512275</li>
         </ul>
     </section>
     <section class="mapa-horarios">
-        <h2 class="nos">Nos podes encontrar en:</h2>
+        <h2 class="nos">Hacemos venta telefonica o nos podes encontrar en:</h2>
         <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.546073590481!2d-60.782796585034795!3d-34.13236888058428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b85bd85eba21ad%3A0x813422d5d7513d4e!2sAutopartes%20km180!5e0!3m2!1ses!2sar!4v1662476169466!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p class="horarios">Horarios: De Lunes a Viernes de 8:00 a 18:00hs</p>
     </section>
+    <div>
+        <p class="horarios">Horarios: De Lunes a Viernes de 8:00 a 18:00hs</p>
+    </div>
     <section class="publicidad">
         <div class="logos">
+            <p class="seguinos">Seguinos en:</p>
             <div>
-        <img class="instagram" src="imagenes/simbolo-de-instagram.png" alt="instagram">
+        <img class="instagram" src="fotos/simbolo-de-instagram.png" alt="instagram">
     </div>
         <div>
-    <img class="facebook" src="imagenes/facebook.png" alt="facebook">
+    <img class="facebook" src="fotos/facebook.png" alt="facebook">
 </div>
     </div>
     </section>
     <section>
     <h4 class="eslogan">A LO LARGO Y ANCHO DE ARGENTINA</h4>
-    <div>
-        <img class="logo-final" src="imagenes/logo.png" alt="logo">
+    <div class="logofinal">
+        <img class="logo-final" src="fotos/logo.png" alt="logo">
     </div>
 </section>
 
 
-    <footer class="footer.one">
-        <div>Ruta 31 kilometro 180-Paraje la "loma negra"-Rojas-Provincia de Buenos Aires</div>
-            <div class="iconos">
-            
-                    <img class="whatsapp" src="imagenes/whatsapp.png" alt="">
-                    <img class="facebook-2" src="imagenes/facebook.png" alt="">
-                    <img class="instagram-2" src="imagenes/simbolo-de-instagram.png" alt="">
-                
+     <!--Footer-->
+     <footer>
+        <div class="mb-3 consultas">
+            <label for="exampleFormControlInput1" class="form-label consultas email">email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3 consultas ">
+            <label for="exampleFormControlTextarea1" class="form-label consultas consulta">Escribe tu consulta</label>
+            <textarea class="form-control consultas" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div>
+            <div class="iconos-footer">
+                <a href="https://es-la.facebook.com/"><img class="iconos" src="fotos/facebook.png" alt="facebook">
+                </a>
+                <a href="https://web.whatsapp.com/"><img class="iconos" src="fotos/whatsapp.png" alt="">
+                </a>
+            </div>
+            <p class="direccion">
+                Ruta31 Km180- Paraje "La Loma Negra"-Rojas-Provincia de Buenos Aires
+            </p>
 
-                </div>
-             
-            </ul>
+        </div>
     </footer>
+    <!--script Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
     
 </body>
 </html>
