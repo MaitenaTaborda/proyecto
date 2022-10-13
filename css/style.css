@@ -1,0 +1,724 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.titulo-item {
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 2%;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: #810000;
+  border: solid 4px #810000;
+}
+@media screen and (max-width: 750px) {
+  .titulo-item {
+    font-size: 30px;
+    border: none;
+  }
+}
+
+.subtitulo-item {
+  color: black;
+  margin-left: 30px;
+  margin-bottom: 5%;
+  margin-top: 8%;
+}
+.subtitulo-item .subtitulo {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+@media screen and (max-width: 750px) {
+  .subtitulo-item .subtitulo {
+    margin: 8%;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.contenidoentero .articulo .grid-caja {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 300px 300px 500px;
+  grid-template-areas: "camion camioneta" "agricola automovil" "utilitario utilitario";
+  margin-left: 20%;
+  margin-top: 10%;
+}
+@media screen and (max-width: 600px) {
+  .contenidoentero .articulo .grid-caja {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 80px;
+    margin-left: 25%;
+    grid-template-areas: "camion" "camioneta" "agricola" "automovil" "utilitario";
+  }
+}
+.contenidoentero .articulo .grid-caja .camion1 .grid-camion {
+  width: 200px;
+  height: 200px;
+  grid-area: camion;
+}
+.contenidoentero .articulo .grid-caja .camion1 .nombres {
+  font-family: poppins;
+  margin-top: 5%;
+  font-weight: bolder;
+  color: #810000;
+  font-size: 20px;
+}
+.contenidoentero .articulo .grid-caja .camion1:hover {
+  scale: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .contenidoentero .articulo .grid-caja .camion1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 15%;
+    grid-area: camion;
+  }
+  .contenidoentero .articulo .grid-caja .camion1:hover {
+    scale: none;
+  }
+}
+.contenidoentero .articulo .grid-caja .camionetas1 .grid-camioneta {
+  width: 200px;
+  height: 200px;
+  grid-area: camioneta;
+}
+.contenidoentero .articulo .grid-caja .camionetas1 .nombres {
+  font-family: poppins;
+  margin-top: 5%;
+  font-weight: bolder;
+  color: #810000;
+  font-size: 20px;
+}
+.contenidoentero .articulo .grid-caja .camionetas1:hover {
+  scale: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .contenidoentero .articulo .grid-caja .camionetas1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 15%;
+    grid-area: camioneta;
+  }
+  .contenidoentero .articulo .grid-caja .camionetas1:hover {
+    scale: none;
+  }
+}
+.contenidoentero .articulo .grid-caja .agricola1 .grid-agricola {
+  width: 200px;
+  height: 200px;
+  grid-area: agricola;
+}
+.contenidoentero .articulo .grid-caja .agricola1 .nombres {
+  font-family: poppins;
+  margin-top: 5%;
+  font-weight: bolder;
+  color: #810000;
+  font-size: 20px;
+}
+.contenidoentero .articulo .grid-caja .agricola1:hover {
+  scale: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .contenidoentero .articulo .grid-caja .agricola1 {
+    width: 150px;
+    height: 150px;
+    grid-area: agricola;
+  }
+  .contenidoentero .articulo .grid-caja .agricola1:hover {
+    scale: none;
+  }
+}
+.contenidoentero .articulo .grid-caja .auto1 .grid-auto {
+  width: 200px;
+  height: 200px;
+  grid-area: automovil;
+}
+.contenidoentero .articulo .grid-caja .auto1 .nombres {
+  font-family: poppins;
+  margin-top: 5%;
+  font-weight: bolder;
+  color: #810000;
+  font-size: 20px;
+}
+.contenidoentero .articulo .grid-caja .auto1:hover {
+  scale: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .contenidoentero .articulo .grid-caja .auto1 {
+    width: 150px;
+    height: 150px;
+    grid-area: automovil;
+  }
+  .contenidoentero .articulo .grid-caja .auto1:hover {
+    scale: none;
+  }
+}
+.contenidoentero .articulo .grid-caja .utilitario1 .grid-utilitario {
+  width: 200px;
+  height: 200px;
+  grid-area: utilitario;
+}
+.contenidoentero .articulo .grid-caja .utilitario1 .nombres {
+  font-family: poppins;
+  margin-top: 5%;
+  font-weight: bolder;
+  color: #810000;
+  font-size: 20px;
+}
+.contenidoentero .articulo .grid-caja .utilitario1:hover {
+  scale: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .contenidoentero .articulo .grid-caja .utilitario1 {
+    width: 150px;
+    height: 150px;
+    grid-area: utilitario;
+  }
+  .contenidoentero .articulo .grid-caja .utilitario1:hover {
+    scale: none;
+  }
+}
+
+section .contamos {
+  font-family: poppins;
+  font-size: 30px;
+  margin-top: 18%;
+  font-weight: bolder;
+}
+@media screen and (max-width: 750px) {
+  section .contamos {
+    font-size: 20px;
+  }
+}
+section .fondoentero .segundasection {
+  margin: 5%;
+}
+section .fondoentero .segundasection .container-one .one1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: #810000;
+  color: white;
+  margin-bottom: 5%;
+}
+section .fondoentero .segundasection .container-one .one1:hover {
+  scale: 1.1;
+  color: black;
+}
+@media screen and (max-width: 750px) {
+  section .fondoentero .segundasection .container-one .one1 {
+    font-size: 15px;
+  }
+}
+section .fondoentero .segundasection .container-one .one2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: #810000;
+  color: white;
+  margin-bottom: 5%;
+}
+section .fondoentero .segundasection .container-one .one2:hover {
+  scale: 1.1;
+  color: black;
+}
+@media screen and (max-width: 750px) {
+  section .fondoentero .segundasection .container-one .one2 {
+    font-size: 15px;
+  }
+}
+section .fondoentero .segundasection .container-one .one3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: #810000;
+  color: white;
+  margin-bottom: 5%;
+}
+section .fondoentero .segundasection .container-one .one3:hover {
+  scale: 1.1;
+  color: black;
+}
+@media screen and (max-width: 750px) {
+  section .fondoentero .segundasection .container-one .one3 {
+    font-size: 15px;
+  }
+}
+
+footer {
+  background-color: white;
+}
+footer div .iconos-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+  margin: 1%;
+}
+footer div .iconos-footer .iconos {
+  width: 50px;
+  height: 50px;
+  display: inline;
+}
+@media screen and (max-width: 750px) {
+  footer div .iconos-footer .iconos {
+    width: 30px;
+    height: 30px;
+  }
+}
+footer div .direccion {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.titulonosotros .titulo-nosotros {
+  margin: 5%;
+  font-family: sans-serif;
+  text-align: center;
+  color: #810000;
+}
+@media screen and (max-width: 750px) {
+  .titulonosotros {
+    font-size: 20px;
+  }
+}
+
+.articulo-nosotros .primerparrafo {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+@media screen and (max-width: 750px) {
+  .articulo-nosotros .primerparrafo {
+    font-size: 18px;
+  }
+}
+
+.habilitados1 .habilitados {
+  font-family: sans-serif;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: 2%;
+  font-weight: bolder;
+  font-size: 25px;
+}
+@media screen and (max-width: 750px) {
+  .habilitados1 .habilitados {
+    font-size: 18px;
+  }
+}
+
+.listahab .listahab1 {
+  list-style: none;
+  line-height: 2.5;
+  margin-bottom: 8%;
+}
+.listahab .listahab1 .listahabilitados {
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  display: flex;
+}
+@media screen and (max-width: 750px) {
+  .listahab .listahab1 .listahabilitados {
+    font-size: 18px;
+  }
+}
+.listahab .listahab1 .letras {
+  font-family: fantasy;
+  color: #810000;
+  margin-left: 5%;
+}
+@media screen and (max-width: 750px) {
+  .listahab .listahab1 .letras {
+    font-size: 18px;
+  }
+}
+
+.servicios1 .articulo-servicios .parrafo-servicios {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 4%;
+}
+@media screen and (max-width: 750px) {
+  .servicios1 .articulo-servicios .parrafo-servicios {
+    font-size: 20px;
+  }
+}
+
+.adicional .servicios-adicionales {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 8%;
+  font-weight: bolder;
+  border: solid 5px #810000;
+}
+@media screen and (max-width: 750px) {
+  .adicional .servicios-adicionales {
+    font-size: 20px;
+  }
+}
+
+.titulo-productos {
+  margin-top: 10%;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.grid-lista1 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: 500px 500px 500px 500px;
+  grid-template-areas: "lista lista2" "foto2 foto3" "lista3 lista4" "foto4 foto1";
+}
+@media screen and (max-width: 750px) {
+  .grid-lista1 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "lista1" "foto1" "lista2" "foto2" "lista3" "foto3" "lista4" "foto4";
+  }
+}
+.grid-lista1 .lista1 {
+  list-style: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  grid-area: lista;
+  margin: 8%;
+}
+@media screen and (max-width: 740px) {
+  .grid-lista1 .lista1 {
+    font-size: 20px;
+    margin: 1px;
+    grid-area: lista1;
+  }
+}
+.grid-lista1 .lista2 {
+  grid-area: lista2;
+  list-style: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  margin: 8%;
+}
+@media screen and (max-width: 740px) {
+  .grid-lista1 .lista2 {
+    font-size: 20px;
+    margin: 1px;
+    grid-area: lista2;
+  }
+}
+.grid-lista1 .foto1 {
+  grid-area: foto1;
+  width: 530px;
+  height: 400px;
+  margin: 8%;
+}
+@media screen and (max-width: 740px) {
+  .grid-lista1 .foto1 {
+    width: 400px;
+    height: 200px;
+    margin: 1px;
+    grid-area: foto1;
+  }
+}
+.grid-lista1 .foto2 {
+  grid-area: foto2;
+  width: 530px;
+  height: 400px;
+  margin: 8%;
+  height: 200px;
+  margin: 1px;
+  grid-area: foto2;
+}
+@media screen and (max-width: 740px) {
+  .grid-lista1 .foto2 {
+    width: 400px;
+    height: 200px;
+    margin: 1px;
+    grid-area: foto2;
+  }
+}
+
+.lista3 {
+  grid-area: lista3;
+  list-style: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  margin: 8%;
+}
+@media screen and (max-width: 740px) {
+  .lista3 {
+    font-size: 20px;
+    margin: 1px;
+    grid-area: lista3;
+  }
+}
+
+.lista4 {
+  grid-area: lista4;
+  list-style: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  margin: 8%;
+}
+@media screen and (max-width: 740px) {
+  .lista4 {
+    font-size: 20px;
+    margin: 1px;
+    grid-area: lista4;
+  }
+}
+
+.foto3 {
+  grid-area: foto3;
+  width: 300px;
+  height: 300px;
+  width: 530px;
+  height: 400px;
+  margin-top: 15%;
+  margin-left: 8%;
+  margin-bottom: 8%;
+}
+@media screen and (max-width: 740px) {
+  .foto3 {
+    width: 400px;
+    height: 200px;
+    margin: 1px;
+    grid-area: foto3;
+  }
+}
+
+.foto4 {
+  grid-area: foto4;
+  width: 300px;
+  height: 300px;
+  width: 530px;
+  height: 400px;
+  margin-top: 15%;
+  margin-left: 8%;
+  margin-bottom: 8%;
+}
+@media screen and (max-width: 740px) {
+  .foto4 {
+    width: 400px;
+    height: 200px;
+    margin: 1px;
+    grid-area: foto4;
+  }
+}
+
+.seccion-dudas .dudas {
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 8%;
+}
+@media screen and (max-width750px) {
+  .seccion-dudas .dudas {
+    font-size: 20px;
+  }
+}
+.seccion-dudas .click-aqui {
+  color: #810000;
+  font-weight: bold;
+  font-size: 30px;
+}
+@media screen and (max-width750px) {
+  .seccion-dudas .click-aqui {
+    font-size: 20px;
+  }
+}
+
+.frase .ultimo {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  background-color: #810000;
+  opacity: 60%;
+  color: #171717;
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+.frase .ultimo:hover {
+  color: black;
+  scale: 1.1;
+  font-weight: bolder;
+}
+@media screen and (max-width750px) {
+  .frase .ultimo {
+    font-size: 20px;
+  }
+}
+
+.contactos1 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  color: #810000;
+  font-size: 50px;
+}
+@media screen and (max-width: 750px) {
+  .contactos1 {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+}
+
+.listacontactos .lista-contactos {
+  list-style: none;
+}
+.listacontactos .via {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 750px) {
+  .listacontactos .via {
+    font-size: 20px;
+  }
+}
+.listacontactos .numeros {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  margin: 5%;
+  font-weight: bolder;
+  border: solid 5px #810000;
+}
+.listacontactos .numeros:hover {
+  scale: 1.1;
+}
+@media screen and (max-width: 750px) {
+  .listacontactos .numeros {
+    font-size: 20px;
+    border: solid 2px #810000;
+  }
+  .listacontactos .numeros:hover {
+    scale: none;
+  }
+}
+
+.mapa-horarios {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+@media screen and (max-width: 750px) {
+  .mapa-horarios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.mapa-horarios .nos {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  margin: 3%;
+}
+@media screen and (max-width: 750px) {
+  .mapa-horarios .nos {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mapa-horarios .mapa {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.horarios-atencion .horarios {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+@media screen and (max-width: 750px) {
+  .horarios-atencion .horarios {
+    font-size: 12px;
+  }
+}
+
+.publicidad .logos {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  gap: 8%;
+}
+.publicidad .seguinos {
+  margin: 2%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+}
+@media screen and (max-width: 750px) {
+  .publicidad .seguinos {
+    font-size: 18px;
+  }
+}
+.publicidad .instagram {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 750px) {
+  .publicidad .instagram {
+    width: 100px;
+    height: 100px;
+  }
+}
+.publicidad .facebook {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 750px) {
+  .publicidad .facebook {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.esloganfinal .eslogan {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 30%;
+}
+@media screen and (max-width: 750px) {
+  .esloganfinal .eslogan {
+    font-size: 20px;
+  }
+}
+.esloganfinal .logofinal {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 750px) {
+  .esloganfinal .logofinal .logo-final {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

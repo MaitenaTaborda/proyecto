@@ -1,0 +1,334 @@
+@import '../base/variables';
+@import '../base/listas';
+
+.titulo-item {
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 2%;
+    font-family: nth($font-family, 2);
+    text-align: center;
+    font-size: 60px;
+    color: $bg-color-general;
+    border: solid 4px #810000;
+
+    @media screen and (max-width:750px) {
+        font-size: 30px;
+        border: none;
+    }
+
+}
+
+.subtitulo-item {
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 5%;
+    margin-top: 8%;
+
+    .subtitulo {
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        text-decoration: underline;
+
+        @media screen and (max-width:750px) {
+            margin: 8%;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}
+
+
+.contenidoentero {
+    .articulo {
+        .grid-caja {
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 300px 300px 500px;
+            grid-template-areas: "camion camioneta"
+                "agricola automovil"
+                "utilitario utilitario";
+            margin-left: 20%;
+            margin-top: 10%;
+
+            @media screen and (max-width:600px) {
+                display: grid;
+                grid-template-columns: 300px;
+                grid-template-rows: repeat(5, 1fr);
+                gap: 80px;
+                margin-left: 25%;
+                grid-template-areas: "camion"
+                    "camioneta"
+                    "agricola"
+                    "automovil"
+                    "utilitario";
+            }
+
+            .camion1 {
+                .grid-camion {
+                    width: 200px;
+                    height: 200px;
+                    grid-area: camion;
+                }
+
+                .nombres {
+                    font-family: poppins;
+                    margin-top: 5%;
+                    font-weight: bolder;
+                    color: #810000;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    scale: 1.5;
+                }
+
+                @media screen and (max-width:600px) {
+                    width: 150px;
+                    height: 150px;
+                    margin-top: 15%;
+                    grid-area: camion;
+
+                    &:hover {
+                        scale: none;
+                    }
+                }
+
+            }
+
+            .camionetas1 {
+                .grid-camioneta {
+                    width: 200px;
+                    height: 200px;
+                    grid-area: camioneta;
+                }
+
+                .nombres {
+                    font-family: poppins;
+                    margin-top: 5%;
+                    font-weight: bolder;
+                    color: #810000;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    scale: 1.5;
+                }
+
+                @media screen and (max-width:600px) {
+                    width: 150px;
+                    height: 150px;
+                    margin-top: 15%;
+                    grid-area: camioneta;
+
+                    &:hover {
+                        scale: none;
+                    }
+                }
+            }
+
+            .agricola1 {
+                .grid-agricola {
+                    width: 200px;
+                    height: 200px;
+                    grid-area: agricola;
+                }
+
+                .nombres {
+                    font-family: poppins;
+                    margin-top: 5%;
+                    font-weight: bolder;
+                    color: #810000;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    scale: 1.5;
+                }
+
+                @media screen and (max-width:600px) {
+                    width: 150px;
+                    height: 150px;
+                    grid-area: agricola;
+
+                    &:hover {
+                        scale: none;
+                    }
+                }
+            }
+
+            .auto1 {
+                .grid-auto {
+                    width: 200px;
+                    height: 200px;
+                    grid-area: automovil;
+                }
+
+                .nombres {
+                    font-family: poppins;
+                    margin-top: 5%;
+                    font-weight: bolder;
+                    color: #810000;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    scale: 1.5;
+                }
+
+                @media screen and (max-width:600px) {
+                    width: 150px;
+                    height: 150px;
+                    grid-area: automovil;
+
+                    &:hover {
+                        scale: none;
+                    }
+                }
+            }
+
+            .utilitario1 {
+                .grid-utilitario {
+                    width: 200px;
+                    height: 200px;
+                    grid-area: utilitario;
+                }
+
+                .nombres {
+                    font-family: poppins;
+                    margin-top: 5%;
+                    font-weight: bolder;
+                    color: #810000;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    scale: 1.5;
+                }
+
+                @media screen and (max-width:600px) {
+                    width: 150px;
+                    height: 150px;
+                    grid-area: utilitario;
+
+                    &:hover {
+                        scale: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section {
+    .contamos {
+        font-family: poppins;
+        font-size: 30px;
+        margin-top: 18%;
+        font-weight: bolder;
+
+        @media screen and (max-width:750px) {
+            font-size: 20px;
+        }
+    }
+
+    .fondoentero {
+        .segundasection {
+            margin: 5%;
+
+            .container-one {
+                .one1 {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-weight: bolder;
+                    font-size: 30px;
+                    background-color: #810000;
+                    color: white;
+                    margin-bottom: 5%;
+
+                    &:hover {
+                        scale: 1.1;
+                        color: black;
+                    }
+
+                    @media screen and (max-width:750px) {
+                        font-size: 15px;
+                    }
+                }
+
+                .one2 {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-weight: bolder;
+                    font-size: 30px;
+                    background-color: #810000;
+                    color: white;
+                    margin-bottom: 5%;
+
+                    &:hover {
+                        scale: 1.1;
+                        color: black;
+                    }
+
+                    @media screen and (max-width:750px) {
+                        font-size: 15px;
+                    }
+                }
+
+                .one3 {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-weight: bolder;
+                    font-size: 30px;
+                    background-color: #810000;
+                    color: white;
+                    margin-bottom: 5%;
+
+                    &:hover {
+                        scale: 1.1;
+                        color: black;
+                    }
+
+                    @media screen and (max-width:750px) {
+                        font-size: 15px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+footer {
+    background-color: white;
+
+    div {
+        .iconos-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 2%;
+            margin: 1%;
+
+            .iconos {
+                width: 50px;
+                height: 50px;
+                display: inline;
+                @media screen and (max-width:750px){
+                    width: 30px;
+                    height: 30px;
+                  }
+            }
+        
+        }
+
+
+        .direccion {
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family: nth($font-family,2);
+
+    }
+
+}
+}

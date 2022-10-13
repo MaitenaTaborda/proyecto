@@ -1,0 +1,133 @@
+.contactos1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: nth($colores,1);
+    font-size: 50px;
+    @media screen and (max-width:750px){
+        margin-top: 20%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+}
+.listacontactos{
+    .lista-contactos{
+        list-style: none;
+    }
+    .via{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        @media screen and (max-width:750px){
+            font-size: 20px;
+        }
+    }
+    .numeros{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        margin: 5%;
+        font-weight: bolder;
+        border: solid 5px #810000;
+        &:hover{
+            scale: 1.1;
+        }
+        @media screen and (max-width:750px){
+            font-size: 20px;
+            border: solid 2px #810000;
+            &:hover{
+                scale: none;
+            }
+        }
+    }
+}
+.mapa-horarios{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    @media screen and (max-width:750px){
+        display: flex;
+        flex-direction: column;
+    }
+    .nos{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        margin: 3%;
+        @media screen and (max-width:750px){
+            font-size: 20px;
+        }
+    }
+    .mapa{
+        @media screen and (max-width:750px){
+            width: 200px;
+            height: 200px;
+        
+        }
+    }
+}
+.horarios-atencion{
+    .horarios{
+        font-family:nth($font-family,2);
+        text-align: center;
+        font-size: 25px;
+        @media screen and (max-width:750px){
+            font-size: 12px;
+        }
+    }
+}
+.publicidad{
+    .logos{
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+        gap: 8%;
+    }
+    .seguinos{
+        margin: 2%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
+        @media screen and (max-width:750px){
+            font-size: 18px;
+        }
+    }
+    .instagram{
+        width: 200px;
+        height: 200px;
+        @media screen and (max-width:750px){
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .facebook{
+        width: 200px;
+        height: 200px;
+        @media screen and (max-width:750px){
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+.esloganfinal{
+    .eslogan{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 30%;
+        @media screen and (max-width:750px){
+            font-size: 20px;
+        }
+    }
+    .logofinal{
+        display: flex;
+        justify-content: center;
+       .logo-final{
+        @media screen and (max-width:750px){
+            width: 160px;
+        height: 160px;
+        }
+       } 
+    }
+    }
+

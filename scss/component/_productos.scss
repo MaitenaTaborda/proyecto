@@ -1,0 +1,177 @@
+.titulo-productos {
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.grid-lista1{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 500px 500px 500px 500px;
+    grid-template-areas: "lista lista2"
+        "foto2 foto3"
+        "lista3 lista4"
+        "foto4 foto1";
+        @media screen and (max-width:750px){
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: repeat(8,1fr);
+            grid-template-areas: "lista1"
+            "foto1"
+            "lista2"
+            "foto2"
+            "lista3"
+            "foto3"
+            "lista4"
+            "foto4";
+        }
+    .lista1{
+        list-style: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        grid-area: lista;
+        margin: 8%;
+        @media screen and (max-width:740px){
+            font-size: 20px;
+        margin: 1px;
+        grid-area: lista1;
+        }
+    }
+    .lista2{
+        grid-area: lista2;
+        list-style: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        margin: 8%;
+        @media screen and (max-width:740px){
+            font-size: 20px;
+        margin: 1px;
+        grid-area: lista2;
+        }
+    }
+    .foto1{
+        grid-area: foto1;
+        width: 530px;
+        height: 400px;
+        margin: 8%;
+        @media screen and (max-width:740px){
+            width: 400px;
+        height: 200px;
+        margin: 1px;
+        grid-area: foto1;
+        }
+    }
+    .foto2{
+        grid-area: foto2;
+        width: 530px;
+        height: 400px;
+        margin: 8%;
+        height: 200px;
+        margin: 1px;
+        grid-area: foto2;
+
+        @media screen and (max-width:740px){
+            width: 400px;
+        height: 200px;
+        margin: 1px;
+        grid-area: foto2;
+        }
+        }
+    }
+    .lista3{
+        grid-area: lista3;
+        list-style: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        margin: 8%;
+        @media screen and (max-width:740px){
+            font-size: 20px;
+        margin: 1px;
+        grid-area: lista3;
+        }
+    }
+    .lista4{
+        grid-area: lista4;
+        list-style: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        margin: 8%;
+        @media screen and (max-width:740px){
+            font-size: 20px;
+        margin: 1px;
+        grid-area: lista4;
+        }
+    }
+    .foto3{
+        grid-area: foto3;
+        width: 300px;
+        height: 300px;
+        width: 530px;
+        height: 400px;
+        margin-top: 15%;
+        margin-left: 8%;
+        margin-bottom: 8%;
+        @media screen and (max-width:740px){
+            width: 400px;
+        height: 200px;
+        margin: 1px;
+        grid-area: foto3;
+        }
+    }
+    .foto4{
+        grid-area: foto4;
+        width: 300px;
+        height: 300px;
+        width: 530px;
+        height: 400px;
+        margin-top: 15%;
+        margin-left: 8%;
+        margin-bottom: 8%;
+        @media screen and (max-width:740px){
+            width: 400px;
+        height: 200px;
+        margin: 1px;
+        grid-area: foto4;
+        }
+    }
+
+.seccion-dudas{
+    .dudas{
+        font-family: nth($font-family,1);
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+        margin: 8%;
+        @media screen and (max-width750px){
+            font-size: 20px;
+        }
+    }
+    .click-aqui{
+        color: #810000;
+    font-weight: bold;
+    font-size: 30px;
+    @media screen and (max-width750px){
+        font-size: 20px;
+    }
+    }
+}
+.frase{
+    .ultimo{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        background-color: #810000;opacity: 60%;
+        color: #171717;
+        font-size: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        &:hover{
+            color: black;
+            scale: 1.1;
+            font-weight: bolder;
+        }
+        @media screen and (max-width750px){
+            font-size: 20px;
+        }
+    }
+}

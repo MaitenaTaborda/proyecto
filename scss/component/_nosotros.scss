@@ -1,0 +1,66 @@
+.titulonosotros {
+    .titulo-nosotros {
+        margin: 5%;
+        font-family: nth($font-family, 2);
+        text-align: center;
+        color: nth($colores, 1);
+    }
+    @media screen and (max-width:750px){
+        font-size: 20px;
+    }
+}
+
+.articulo-nosotros {
+    .primerparrafo {
+        font-family: nth($font-family, 2);
+        font-size: 30px;
+        margin-top: 5%;
+        margin-left: 4%;
+        @media screen and (max-width:750px){
+            font-size: 18px;
+        }
+    }
+    
+}
+
+.habilitados1 {
+    .habilitados {
+        font-family: nth($font-family, 2);
+        margin-top: 8%;
+        margin-bottom: 8%;
+        margin-left: 2%;
+        font-weight: bolder;
+        font-size: 25px;
+        @media screen and (max-width:750px){
+            font-size: 18px;
+        }
+    }
+    
+}
+
+.listahab {
+    .listahab1 {
+        list-style: none;
+        line-height: 2.5;
+        margin-bottom: 8%;
+        
+        .listahabilitados {
+            font-family: nth($font-family, 1);
+            font-size: 30px;
+            display: flex;
+            @media screen and (max-width:750px){
+                font-size: 18px;
+            }
+            
+        }
+
+        .letras {
+            font-family: fantasy;
+            color: nth($colores, 1);
+            margin-left:5%;
+            @media screen and (max-width:750px){
+                font-size: 18px;
+            }
+        }
+    }
+}
