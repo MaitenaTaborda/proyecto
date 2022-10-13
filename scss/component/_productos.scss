@@ -1,7 +1,12 @@
+@import '../base/estilosGenerales';
+@import '../base/listas';
+@import '../base/variables';
+
+
 .titulo-productos {
     margin-top: 10%;
     text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: nth($font-family,2);
 }
 
 
@@ -28,7 +33,7 @@
         }
     .lista1{
         list-style: none;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: nth($font-family,1);
         font-size: 30px;
         grid-area: lista;
         margin: 8%;
@@ -41,7 +46,7 @@
     .lista2{
         grid-area: lista2;
         list-style: none;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: nth($font-family,1);
         font-size: 30px;
         margin: 8%;
         @media screen and (max-width:740px){
@@ -67,7 +72,6 @@
         width: 530px;
         height: 400px;
         margin: 8%;
-        height: 200px;
         margin: 1px;
         grid-area: foto2;
 
@@ -82,7 +86,7 @@
     .lista3{
         grid-area: lista3;
         list-style: none;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family:nth($font-family,1);
         font-size: 30px;
         margin: 8%;
         @media screen and (max-width:740px){
@@ -94,7 +98,7 @@
     .lista4{
         grid-area: lista4;
         list-style: none;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family:nth($font-family,1);
         font-size: 30px;
         margin: 8%;
         @media screen and (max-width:740px){
@@ -148,7 +152,7 @@
         }
     }
     .click-aqui{
-        color: #810000;
+        color: $bg-color-general;
     font-weight: bold;
     font-size: 30px;
     @media screen and (max-width750px){
@@ -160,7 +164,7 @@
     .ultimo{
         margin-top: 8%;
         margin-bottom: 8%;
-        background-color: #810000;opacity: 60%;
+        background-color: $bg-color-general;opacity: 60%;
         color: #171717;
         font-size: 30px;
         font-family: 'Roboto Condensed', sans-serif;
