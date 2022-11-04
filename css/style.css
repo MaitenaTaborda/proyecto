@@ -293,7 +293,14 @@ footer div .iconos-footer .iconos {
     height: 30px;
   }
 }
-footer div .direccion {
+footer .nombrecompleto {
+  color: #810000;
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+footer .direccion {
   text-align: center;
   font-size: 15px;
   color: black;
@@ -600,25 +607,71 @@ body {
   }
 }
 
-.frase .ultimo {
+.formulario {
+  background-color: #9b9b9b;
+  margin: 4%;
+}
+.formulario .form-consultas {
+  margin: 4%;
+}
+.formulario .form-consultas .form-fila {
+  display: flex;
+  flex-direction: column;
+  margin: 8%;
+}
+.formulario .form-consultas #nombreCompleto {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+}
+@media screen and (max-width750px) {
+  .formulario .form-consultas #nombreCompleto {
+    font-size: 14px;
+  }
+}
+.formulario .form-consultas #email {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+}
+@media screen and (max-width750px) {
+  .formulario .form-consultas #email {
+    font-size: 14px;
+  }
+}
+.formulario .form-consultas #consulta {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+}
+@media screen and (max-width750px) {
+  .formulario .form-consultas #consulta {
+    font-size: 14px;
+  }
+}
+.formulario .form-consultas .boton {
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  margin: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width750px) {
+  .formulario .form-consultas .boton {
+    font-size: 12px;
+  }
+}
+
+.ultimo {
   margin-top: 8%;
   margin-bottom: 8%;
-  background-color: #810000;
-  opacity: 60%;
   color: #171717;
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
-.frase .ultimo:hover {
+.ultimo:hover {
   color: black;
   scale: 1.1;
   font-weight: bolder;
-}
-@media screen and (max-width750px) {
-  .frase .ultimo {
-    font-size: 20px;
-  }
 }
 
 * {
