@@ -660,7 +660,7 @@ body {
   }
 }
 
-.ultimo {
+h3 {
   margin-top: 8%;
   margin-bottom: 8%;
   color: #171717;
@@ -668,7 +668,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
-.ultimo:hover {
+h3:hover {
   color: black;
   scale: 1.1;
   font-weight: bolder;
